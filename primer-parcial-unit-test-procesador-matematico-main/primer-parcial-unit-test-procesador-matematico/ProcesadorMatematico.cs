@@ -32,20 +32,6 @@ namespace primer_parcial_unit_test_procesador_matematico
             return (this._resultado < 0);
         }
 
-        public void CalcularMayor(int primerNumero, int segundoNumero)
-        {
-            if (primerNumero > segundoNumero)
-            {
-                this._resultado = primerNumero;
-            }
-            else if (primerNumero < segundoNumero)
-            {
-                this._resultado = segundoNumero;
-            }
-            else
-            {
-                this._resultado = segundoNumero;
-            }
-        }
+        
     }
 }
